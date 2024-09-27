@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <!-- SITE-HEADER -->
     <header class="site-header">
         <div class="site-header-container container">
             <a class="site-header-logo" href="index.html">Where in the world?</a>
@@ -29,6 +29,24 @@
             </button>
         </div>
     </header>
+
+    
+    <!-- MAIN-CONTENT -->
+    <main class="main-content">
+        <div class="container">
+            <form class="filters" action="https://echo.htmlacademy.ru" method="GET">
+                <input class="filter-search-input" type="search" name="search" placeholder="Search for a country..." aria-label="Country name" required>
+                <select class="filters-region-select" name="region" aria-label="Regions">
+                    <option selected disabled>Filter by Region</option>
+                    <option>Africa</option>
+                    <option>America</option>
+                    <option>Asia</option>
+                    <option>Europe</option>
+                    <option>Oceania</option>
+                </select>
+            </form>
+        </div>
+    </main>
 
     <script src="js/main.js"></script>
 </body>

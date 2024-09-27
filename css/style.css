@@ -98,6 +98,8 @@ a {
 /* MAIN-CONTENT */
 .main-content {
     flex-grow: 1;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 /* SITE-HEADER */
@@ -160,4 +162,28 @@ a {
     font-weight: 600;
     color: var(--text-color);
     margin-left: 8px;
+}
+
+/* FILTERS */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-search-input {
+    min-width: 480px;
+    padding: 18px 74px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--element-bg);
+    color: var(--text-color);
+}
+
+.filters-region-select {
+    min-width: 20px;
+    padding: 18px 24px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--element-bg);
+    color: var(--text-color);
 }
