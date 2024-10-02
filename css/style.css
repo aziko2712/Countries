@@ -66,6 +66,8 @@ body {
     line-height: 16px;
     background-color: var(--body-bg);
     color: var(--text-color);
+    transition: background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 img {
@@ -186,4 +188,57 @@ a {
     border-radius: 5px;
     background-color: var(--element-bg);
     color: var(--text-color);
+}
+
+/* INDEX-COUNTRIES */
+.index-countries {
+    margin-top: 48px;
+}
+
+.index-countries-list {
+    margin: 0;
+}
+
+.first-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.second-group {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.index-countries-item {
+    background-color: var(--element-bg);
+    border-radius: 5px;
+}
+
+.index-country {
+    width: 264px;
+    height: 336px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.index-country-flag {
+    border-radius: 5px;
+}
+
+.index-country-flag-heading {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+}
+.index-country-flag-text {
+    margin-left: 24px;
+    margin-bottom: 8px;
 }
