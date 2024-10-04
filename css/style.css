@@ -244,6 +244,7 @@ a {
 
 .index-country-link {
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .index-country-flag-text {
